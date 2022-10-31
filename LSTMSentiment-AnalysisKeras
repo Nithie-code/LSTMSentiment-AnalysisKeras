@@ -53,7 +53,7 @@ Y_validate=Y_test[-validation_size:]
 X_test=X_test[:-validation_size]
 Y_test=Y_test[:-validation_size]
 score,accuracy=model.evaluate(X_test,Y_test,verbose=0,batch_size=batch_size
-                              )
+   #print scores and accuracy                           )
 print("Score:%.2f"%(score))
 print("accuracy:%2f"%(accuracy))
 
