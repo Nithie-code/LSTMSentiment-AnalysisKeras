@@ -43,7 +43,7 @@ X_train,X_test,Y_train,Y_test=train_test_split(X,Y,test_size=0.33,random_state=4
 print(X_train.shape,Y_train.shape)
 print(X_test.shape,Y_test.shape)
 
-#training
+#Model  training
 model.fit(X_train,Y_train,epochs=7,batch_size=batch_size,verbose=2)
 
 #validation_set
