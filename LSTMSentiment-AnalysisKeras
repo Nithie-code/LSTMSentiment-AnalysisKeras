@@ -31,6 +31,7 @@ X=pad_sequences(X)
 #LSTM hyperparameters
 embed_dim=128
 lstm_out=96
+
 batch_size=32
 model=Sequential()
 model.add(Embedding(max_features,embed_dim,input_length=X.shape[1]))
